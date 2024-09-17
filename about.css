@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Content Container Styles */
+.content-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px;
+    flex-wrap: wrap; 
+    width: 80%; 
+    margin: 20px auto; 
+   
+}
+
+/* Content Box Styles */
+.content-box {
+    width: 45%; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.details h3 {
+    margin: 10px 0 5px;
+    font-size: 1.5em;
+}
+
+.details p {
+    font-size: 1em;
+    color: #3f3c3c;
+}
+
+/* Social Media Styles */
+.social-media {
+    margin-top: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 24px; 
+    height: 24px; 
+}
